@@ -1,0 +1,68 @@
+.container-wrapper {
+  margin-left: 20vw;
+  margin-right: 20vw;
+}
+
+.switch-btn {
+  margin-right: 10em;
+}
+
+.form-head {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.left-margin-0 {
+  margin-left: 0 !important;
+}
+
+.right-margin-0 {
+  margin-right: 0 !important;
+}
+
+@media (max-width: 768px) {
+  .container-wrapper {
+    margin-left: 3em;
+    margin-right: 3em;
+  }
+
+  .classJoinBtn {
+    width: 100%;
+    padding: 10px;
+  }
+}
+
+.instructors {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 8px 0 0 0;
+}
+
+.instructor {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  padding: 3px 8px;
+  border-radius: 6px;
+  margin: 0 8px 8px 0;
+  background: #0a58ca;
+}
+
+.instructor-title {
+  margin-top: 3px;
+}
+
+.instructor-close-icon {
+  display: block;
+  width: 16px;
+  height: 16px;
+  line-height: 16px;
+  text-align: center;
+  font-size: 14px;
+  margin-left: 8px;
+  color: #0052cc;
+  border-radius: 50%;
+  background: #fff;
+  cursor: pointer;
+}

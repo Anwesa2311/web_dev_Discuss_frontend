@@ -1,0 +1,14 @@
+.navbar-brand {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.navbar-brand img {
+  width: 30px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.navbar {
+  z-index: 1700;
+}

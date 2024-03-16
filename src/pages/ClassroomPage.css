@@ -1,0 +1,22 @@
+.classroom-body .container {
+  max-width: 960px;
+}
+
+.classroom-wrap .question-card:not(:last-child) {
+  border-bottom: 1px solid #f5f5f5;
+}
+
+.classroom-no-questions,
+.classroom-loading {
+  color: #575757;
+}
+
+.classroom-no-questions h3 {
+  font-size: 50px;
+}
+
+.classroom-searchbar {
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.15);
+  top: 62px;
+  background: #fff;
+}

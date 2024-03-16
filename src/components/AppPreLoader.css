@@ -1,0 +1,21 @@
+.app-pre-loader {
+  position: fixed;
+
+  top: 0;
+  left: 0;
+
+  width: 100vw;
+  height: 100vh;
+
+  background: #fff;
+
+  z-index: 999;
+}
+
+.app-pre-loader img {
+  display: block;
+  margin: 0 auto;
+
+  width: 60px;
+  height: auto;
+}
